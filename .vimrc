@@ -30,6 +30,7 @@ let mapleader=","
 let g:ctrlp_max_files=0
 let g:ctrlp_max_depth=40
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_working_path_mode=''
 :imap jj <Esc>
 set number
 
@@ -40,5 +41,3 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
-
-
